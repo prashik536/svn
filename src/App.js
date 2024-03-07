@@ -5,7 +5,7 @@ import axios from 'axios';
 
 function App() {
   const callhello = () => {
-    axios.get('http://localhost:5000')
+    axios.get('https://test2-coa.azurewebsites.net/')
       .then(response => {
         alert(response.data);
       })
