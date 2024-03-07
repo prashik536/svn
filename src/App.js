@@ -5,7 +5,7 @@ import axios from 'axios';
 
 function App() {
   const callhello = () => {
-    axios.get('https://test2-coa.azurewebsites.net/')
+    axios.get('https://test-web-app-for-container-01.azurewebsites.net/')
       .then(response => {
         alert(response.data);
       })
