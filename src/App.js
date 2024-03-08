@@ -3,9 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
 
-function App() 
+function App() {
   const callhello = () => {
-    axios.get('https://backebd-web-app.azurewebsites.net/hello/')
+    axios.get('https://backebd-web-app.azurewebsites.net/hello')
       .then(response => {
         alert(response.data);
       })
