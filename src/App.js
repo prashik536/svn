@@ -3,9 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
 
-function App() {
+function App() 
   const callhello = () => {
-    axios.get('https://web-app-backend-for-exp.azurewebsites.net/')
+    axios.get('https://web-app-backend-for-exp.azurewebsites.net/hello')
       .then(response => {
         alert(response.data);
       })
