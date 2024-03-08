@@ -5,7 +5,7 @@ import axios from 'axios';
 
 function App() 
   const callhello = () => {
-    axios.get('backebd-web-app.azurewebsites.net/hello')
+    axios.get('https://backebd-web-app.azurewebsites.net/hello')
       .then(response => {
         alert(response.data);
       })
